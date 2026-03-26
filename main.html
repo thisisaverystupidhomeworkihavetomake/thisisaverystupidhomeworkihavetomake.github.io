@@ -1,1 +1,199 @@
-e
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Earthquakes</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Google Fonts (optional) -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> */ -->
+    
+    <style>
+        /* Basic Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'MS comic sans', cursive;
+            line-height: 1.6;
+            background: #f4f4f4;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+
+        nav {
+            background: #444;
+            padding: 0.5rem;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1100px;
+            margin: 20px auto;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        }
+
+        footer {
+            text-align: bottom;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+        }
+
+        @media (min-width: 768px) {
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>AMAZING</h1>
+        <p>this is our homework so dont expect much</p>
+    </header>
+
+    <nav>
+        <a href="https://fbi.gov">Home</a>
+        <a href="https://fbi.gov">About</a>
+        <a href="https://fbi.gov">Services</a>
+        <a href="https://fbi.gov">Contact</a>
+    </nav>
+
+    <div class="container">
+
+        <section class="card">
+            <h2>Welcome</h2>
+            <p>This is our website dont expect peak. Also this website is talking about earthquakes if you didn't know.</p>
+        </section>
+
+        <section class="container" style="margin-right: 20%; max-width: 100%;">
+            <div class="card">
+                <div>
+                <h3>What is a earthquake?</h3>
+                <p>An <a href="https://en.wikipedia.org/wiki/Earthquake" title="hi">earthquake</a> is the shaking of the surface of Earth resulting from a sudden release of energy in the lithosphere that creates seismic waves. It's a natural occurring event where tectonic plate move in three ways Diverge, converge, and or transform. Divergent boundaries involve plates moving apart, convergent boundaries involve plates colliding, and transform boundaries involve plates sliding past each other, each type generating different seismic activity.
+                </p></div>
+		<div style="text-align: center;">
+			<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fimage.slidesharecdn.com%2Fconvergentdivergenttransformfault-240811110213-ecd08e99%2F75%2Fconvergent-divergent-transform-fault-pptx-7-2048.jpg&f=1&nofb=1&ipt=a8e50ceba4a3d3d31153b627b52c8572c058d24b419e7ef2b9c27020daa70af8" style="height: 50%; width: 50%; border-radius: 14px;"> </div>
+                </div>
+
+                <div class="card">
+                <h3>Who is vulnerable?</h3>
+		<p>The people that are in prone locations like coastal and fault lines with no mitigation or any way of protecting themselves, any lifestock in the area, the plant life and any type of structure with no anti earthquake equiptment, regions near plate boundaries especially subduction zones and transform faults cities built on or next to active fault lines, and low lying coastal areas that also face tsunami risk. Areas with soft, reclaimed, or loose soils (river deltas, coastal plains, landfill) are especially prone to strong shaking and liquefaction. Densely populated cities with many older, unreinforced buildings or non ductile concrete buildings and regions with weak infrastructure (hospitals, schools, bridges, utilities lacking seismic reinforcement) face higher damage and casualty risk. Vulnerability is also elevated near sites of induced seismicity (injection wells, some mining or reservoirs) and in remote or mountainous zones where earthquakes can trigger landslides. An example of this is <a href="https://en.wikipedia.org/wiki/Ring_of_Fire">the pacific ring of fire</a>.</p>
+		<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fupload.wikimedia.org%2Fwikipedia%2Fcommons%2Fthumb%2F5%2F52%2FPacific_Ring_of_Fire.svg%2F1200px-Pacific_Ring_of_Fire.svg.png&f=1&nofb=1&ipt=d17fa5c975d6aca1e2aebf719c2e9d5ee582b691bcd5723d8efd6fc06b995b00" style="height: 50%; width: 49.7%; border-radius: 14px;">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Subduction-en.svg/960px-Subduction-en.svg.png" style="height: 50%; width: 49.7%; border-radius: 14px;">
+
+		</div>
+		<div class="card">
+		<h3>What to do?</h3>
+		<P>Review evacuation plans for all of the buildings you occupy regularly, learn risk and local plans by contacting your goverment, be aware of earthquake alerts, pick safe places in each room of your home Practice Drop, cover and Hold, and use a emergency kit if possible. Families should be prepared to be self-sustaining for at least fourteen (14) days. If you have already began using your emergency kit and food supply while staying at home consider safely getting the supplies to replenish it. Follow guidelines for leaving your residence after an earthquake the disaster may continue. Expect and prepare for potential aftershocks, landslides or even a tsunami. Tsunamis are often generated by earthquakes. Each time you feel an aftershock, Drop, Cover and Hold on. Aftershocks frequently occur minutes, days, weeks and even months following an earthquake. Check yourself for injuries and get first aid if necessary. Put on long pants, a long sleeved shirt, sturdy shoes and work gloves to protect against injury Look quickly for damage in and around your home Tune in to the radio or local news channels, and/or follow your local news outlet and emergency officials portable. Check the telephones in your home or workplace to see if you can get a dial tone. Look for and extinguish small fires. Fire is the most common hazard after an earthquake. Clean up spilled medications, bleach, gasoline or other flammable liquids Open closet and cabinet doors carefully. Help people who require special assistance. Watch out for fallen power lines or broken gas lines.</P>
+		<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fkauveryhospital.com%2Fblog%2Fwp-content%2Fuploads%2F2023%2F05%2FLearn-How-to-Perform-First-Aid.jpg&f=1&nofb=1&ipt=a4c97f176928af1ec3e7c5d4cc5257f0445c8ed611e6cbe4c625d847bd2b85a6" style="height: 40%; width: 65%; border-radius: 14px; ">
+		<img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn11.bigcommerce.com%2Fs-aba8czii%2Fimages%2Fstencil%2F1280x1280%2Fproducts%2F106%2F29%2FALN-203__45252.1400855215.jpg%3Fc%3D2&f=1&nofb=1&ipt=ef906cbb9398028f000dc3135972fb04335daa3ea0329e28bfea8218abbecce2" style="height: 30%; width: 32%; border-radius: 14px; ">
+
+		</div>
+		<div class="card">
+		<h3>CONTACTS</h3>
+		<p><a href="https://www.fema.gov/emergency-managers/risk-management/earthquake/contacts">The FEMA</a></p>
+		<p><a href="https://www.canada.ca/en/services/policing/emergencies/preparedness/get-prepared/hazards-emergencies/earthquakes.html">Canadian government</a></p>
+		<p><a href="https://www.seismescanada.rncan.gc.ca/concon-en.php">Canada again</a></p>
+		<p><a href="https://www.apartmentguide.com/blog/emergency-phone-numbers/">Phone Numbers list </a></p>
+		<p><a href="https://fbi.gov">The FBI</a></p>
+		</div>
+
+                </section>
+    </div>
+
+    <!--<footer>
+        <p>&copy; 2026 Your Website Name | All Rights Reserved</p>
+    </footer> -->
+
+</body>
+<div>
+<a href="#">
+<img src="https://static.wikia.nocookie.net/baldis-basics-in-education-and-learning/images/5/5d/NotebookSheet_1.png/revision/latest?cb=20210626081831" class="floating" alt="Character">
+</a>
+<footer>hi</footer>
+<!--
+<s>
+<p style="background-color: rgba(255,200,200,0.1); padding: 35px;">wow</p>
+</s>
+-->
+<style>
+.floating {
+  width: 50px;
+  position: absolute;
+  right: 10px;
+  bottom: -170%;
+  animation: float 3s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%   { transform: translateY(0); }
+  50%  { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+            margin-top: 20px;
+            /* background: url(""); */
+        }
+
+        @media (min-width: 768px) {
+            .grid {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 20px;
+            }
+        }
+
+</style>
+</div>
+</html>
